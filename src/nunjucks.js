@@ -2,7 +2,7 @@ import chroma from 'chroma-js'
 import nunjucks from 'nunjucks'
 import path from 'path'
 
-let nunjucksEnv = nunjucks.configure(path.resolve(__dirname, '..', 'views'))
+const nunjucksEnv = nunjucks.configure(path.resolve(__dirname, '..', 'views'))
 
 const isColor = value => {
   try {

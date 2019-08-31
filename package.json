@@ -1,15 +1,15 @@
 {
-  "name": "sassdoc-theme-default",
-  "description": "SassDoc's default theme",
-  "title": "SassDoc Default Theme",
-  "author": "SassDoc team",
-  "version": "2.8.3",
+  "name": "narwin-sassdoc-theme",
+  "description": "DockYard SassDoc theme",
+  "title": "DockYard SassDoc theme",
+  "author": "DockYard",
+  "version": "1.0",
   "keywords": [
     "sassdoc-theme"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/SassDoc/sassdoc-theme-default.git"
+    "url": "https://github.com/jsit/sassdoc-theme-default.git"
   },
   "license": "MIT",
   "files": [
