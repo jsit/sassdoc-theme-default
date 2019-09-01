@@ -131,8 +131,6 @@
 /// @requires {function} bottom-shadow
 /// @requires {variable} light-grey
 @mixin card($depth) {
-  $depth: clamp($depth, 1, 5);
-  box-shadow: bottom-shadow($depth), top-shadow($depth);
   border: 1px solid $light-grey;
 }
 

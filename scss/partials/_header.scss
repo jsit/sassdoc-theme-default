@@ -9,11 +9,11 @@
   background: $primary-color;
   color: $light-grey;
   z-index: z('dropdown');
-  
+
   @include respond-to('small') {
 	left: 0;
   }
-  
+
   @include respond-to('medium') {
 	transition: .2s cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -23,7 +23,7 @@
  * Main title
  */
 .header__title {
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
   margin: 0 0 0.5em 0;
 
