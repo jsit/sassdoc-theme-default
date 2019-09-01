@@ -35,7 +35,7 @@
   margin-top: 0;
 
   @include respond-to('medium') {
-    padding: 2em 0 0;
+    padding: 0em 0 0;
   }
 }
 
@@ -45,13 +45,9 @@
 .main__heading {
   color: $tertiary-color;
   font-size: 3.5em;
-  text-align: center;
 
-  border-bottom: 5px solid rgba($tertiary-color, .2);
   padding-bottom: .5em;
-  margin-bottom: 1em;
-
-  background: rgba($tertiary-color, .1);
+  margin-bottom: .5em;
 }
 
 /**
@@ -60,7 +56,6 @@
 .main__heading--secondary {
   font-size: 3em;
   color: $primary-color;
-  text-transform: uppercase;
   font-weight: bold;
   padding-top: 0;
   margin-bottom: $vertical-rhythm * -2;
@@ -70,16 +65,6 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-  }
-
-  &::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0.15em;
-    height: 0.2em;
-    background-color: $primary-color;
   }
 }
 

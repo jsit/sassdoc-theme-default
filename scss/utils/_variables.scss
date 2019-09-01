@@ -1,11 +1,11 @@
 /// Pink
 /// @type Color
-$pink: #dd5a6f;
+$pink: #FFABA0;
 
 
 /// Purple
 /// @type Color
-$purple: #5c4863;
+$purple: #5B518B;
 
 
 /// Yellow
@@ -20,12 +20,12 @@ $black: #333;
 
 /// Primary color
 /// @type Color
-$primary-color: $pink;
+$primary-color: $purple;
 
 
 /// Primary color
 /// @type Color
-$secondary-color: $yellow;
+$secondary-color: $pink;
 
 
 /// Primary color
@@ -80,9 +80,9 @@ $vertical-rhythm: 1.5rem;
 
 /// Text font stack
 /// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$text-font-stack: 'IBM Plex Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 
 
 /// Code font stack
 /// @type List
-$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace;
+$code-font-stack: Menlo, 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace;

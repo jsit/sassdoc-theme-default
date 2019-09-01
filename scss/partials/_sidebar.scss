@@ -76,6 +76,7 @@ $level-3: $level-2 + 2em;
  */
 .sidebar__item--heading,
 .sidebar__item--sub-heading {
+  margin: 0;
   position: relative;
 
   &:after {
