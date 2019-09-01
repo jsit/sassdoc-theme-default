@@ -41,13 +41,14 @@
 .item__code {
   padding-right: 7em;
   clear: both;
-  cursor: pointer;
 }
 
 /**
  * Display a hint to expand/collapse code
  */
 .item__code--togglable {
+  cursor: pointer;
+
   &::after {
     @include absolute($bottom: -2.5em, $right: 0);
     @include opacity(0);
